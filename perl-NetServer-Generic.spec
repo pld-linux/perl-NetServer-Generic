@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	NetServer
 %define	pnam	Generic
-%include	/usr/lib/rpm/macros.perl
 Summary:	NetServer-Generic perl module
 Summary(pl):	Modu³ perla NetServer-Generic
 Name:		perl-NetServer-Generic
 Version:	1.03
-Release:	4
-
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ NetServer-Generic - simple TCP/IP server.
 NetServer-Generic - prosty serwer TCP/IP.
 
 %prep
-%setup -q -n NetServer-Generic-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
