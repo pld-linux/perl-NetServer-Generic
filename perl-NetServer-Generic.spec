@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	NetServer
-%define	pnam	Generic
+%define		pdir	NetServer
+%define		pnam	Generic
 Summary:	NetServer::Generic perl module
 Summary(pl):	Modu³ perla NetServer::Generic
 Name:		perl-NetServer-Generic
