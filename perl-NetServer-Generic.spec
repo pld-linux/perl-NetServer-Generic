@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	NetServer
 %define	pnam	Generic
-Summary:	NetServer-Generic perl module
-Summary(pl):	Modu³ perla NetServer-Generic
+Summary:	NetServer::Generic perl module
+Summary(pl):	Modu³ perla NetServer::Generic
 Name:		perl-NetServer-Generic
 Version:	1.03
 Release:	5
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-NetServer-Generic - simple TCP/IP server.
+NetServer::Generic - simple TCP/IP server.
 
 %description -l pl
-NetServer-Generic - prosty serwer TCP/IP.
+NetServer::Generic - prosty serwer TCP/IP.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
