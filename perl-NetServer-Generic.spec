@@ -3,7 +3,7 @@ Summary:	NetServer-Generic perl module
 Summary(pl):	Modu³ perla NetServer-Generic
 Name:		perl-NetServer-Generic
 Version:	1.03
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
