@@ -26,7 +26,7 @@ NetServer::Generic - prosty serwer TCP/IP.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
