@@ -25,7 +25,7 @@ NetServer-Generic - prosty serwer TCP/IP.
 
 %build
 perl Makefile.PL
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
