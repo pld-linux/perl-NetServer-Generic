@@ -4,10 +4,10 @@ Summary(pl):	Modu³ perla NetServer-Generic
 Name:		perl-NetServer-Generic
 Version:	0.03
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/NetServer/NetServer-Generic-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/NetServer/NetServer-Generic-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
@@ -15,7 +15,7 @@ Requires:	%{perl_sitearch}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-NetServer-Generic - simple TCP/IP server. 
+NetServer-Generic - simple TCP/IP server.
 
 %description -l pl
 NetServer-Generic - prosty serwer TCP/IP.
