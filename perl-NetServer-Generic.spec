@@ -6,7 +6,7 @@
 %define		pdir	NetServer
 %define		pnam	Generic
 Summary:	NetServer::Generic perl module
-Summary(pl):	Modu≥ perla NetServer::Generic
+Summary(pl.UTF-8):   Modu≈Ç perla NetServer::Generic
 Name:		perl-NetServer-Generic
 Version:	1.03
 Release:	7
@@ -23,7 +23,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 NetServer::Generic - simple TCP/IP server.
 
-%description -l pl
+%description -l pl.UTF-8
 NetServer::Generic - prosty serwer TCP/IP.
 
 %prep
