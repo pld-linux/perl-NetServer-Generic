@@ -6,7 +6,7 @@
 %define		pdir	NetServer
 %define		pnam	Generic
 Summary:	NetServer::Generic perl module
-Summary(pl.UTF-8):   Moduł perla NetServer::Generic
+Summary(pl.UTF-8):	Moduł perla NetServer::Generic
 Name:		perl-NetServer-Generic
 Version:	1.03
 Release:	7
