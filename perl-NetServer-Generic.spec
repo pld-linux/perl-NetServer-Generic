@@ -4,7 +4,6 @@
 
 %define		pdir	NetServer
 %define		pnam	Generic
-%include	/usr/lib/rpm/macros.perl
 Summary:	NetServer::Generic perl module
 Summary(pl.UTF-8):	Moduł perla NetServer::Generic
 Name:		perl-NetServer-Generic
